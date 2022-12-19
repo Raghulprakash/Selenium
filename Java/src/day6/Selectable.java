@@ -34,8 +34,6 @@ public class Selectable {
 		List<WebElement> list2 = driver.findElements(By.xpath("//*[@class='grid-container mt-4']//*[@id='row2']/li"));
 		action.click(list2.get(1)).build().perform();
 		
-		List<WebElement> list3 = driver.findElements(By.xpath("//*[@class='grid-container mt-4']//*[@id='row3']/li"));
-		action.click(list3.get(1)).build().perform();
 	}
 
 }

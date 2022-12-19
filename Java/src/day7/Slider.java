@@ -1,4 +1,4 @@
-package day6;
+package day7;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,23 +6,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Drop {
+public class Slider {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		System.setProperty("webdriver.chrome.driver", "F:\\selenium\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-
-		driver.navigate().to("https://demoqa.com/droppable");
-		driver.manage().window().maximize();
-		Actions action = new Actions(driver);
-
-		WebElement Dragme = driver.findElement(By.id("draggable"));
-		WebElement Dropme = driver.findElement(By.id("droppable"));
-
-		action.clickAndHold(Dragme).moveToElement(Dropme).release(Dropme).build().perform();
 		
-	
-	
+		driver.get("https://jqueryui.com/slider/#colorpicker");
+		driver.manage().window().maximize();
+		driver.switchTo().frame(0);
+		
+		WebElement greenslider = driver.findElement(By.xpath("//*[@id='green']//*[@class='ui-slider-handle ui-corner-all ui-state-default']"));
+		 
+		Actions action = new Actions(driver);
+		action.dragAndDropBy(greenslider,100,125).perform();
+		
+		
 	}
 
 }
