@@ -15,16 +15,16 @@ public class Dependson {
 	}
 
 	@Test(dependsOnMethods = "Addition")
-	public void Mutiplication() {
+	public void Multiplication() {
 		d = c * a;
-		System.out.println("Mutiplication:" + d);
+		System.out.println("Multiplication:" + d);
 
 	}
 
-	@Test(dependsOnMethods = "Mutiplication")
-	public void Subraction() {
+	@Test(dependsOnMethods = "Multiplication")
+	public void Subtraction() {
 		e = d - (a * b);
-		System.out.println("Subraction:" + e);
+		System.out.println("Subtraction:" + e);
 
 	}
 }

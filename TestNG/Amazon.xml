@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite2" verbose="2">
+	<test name="Test Cases2">
+	<parameter name="Content" value="airpods"></parameter>
+	<parameter name="Content1" value="iphone14"></parameter>
+		<classes>
+			<class name="day9.Amazon"></class>
+		</classes>
+	</test>
+</suite>

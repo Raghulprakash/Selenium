@@ -42,7 +42,7 @@ public class Suit {
 		driver.quit();
 		long endTime = System.currentTimeMillis();
 		long totalTime = endTime - startTime;
-		System.out.println("Total time taken: " + totalTime +" Miliseconds.");
+		System.out.println("Total time taken: " + totalTime +" Milliseconds.");
 
 	}
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite1]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Test Cases1(failed)" verbose="2">
+    <groups>
+      <run>
+        <include name="Firstoperation"/>
+        <include name="Thirdoperation"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="day9.Calculator_function">
+        <methods>
+          <include name="MultipleFunction"/>
+        </methods>
+      </class> <!-- day9.Calculator_function -->
+    </classes>
+  </test> <!-- Test Cases1(failed) -->
+</suite> <!-- Failed suite [Test Suite1] -->

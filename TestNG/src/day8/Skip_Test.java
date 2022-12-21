@@ -36,8 +36,8 @@ public class Skip_Test {
 	}
 
 	@Test(priority = 1)
-	public void Subract() {
+	public void Subtract() {
 		d = a - b;
-		System.out.println("Subraction:" + d);
+		System.out.println("Subtraction:" + d);
 	}
 }
