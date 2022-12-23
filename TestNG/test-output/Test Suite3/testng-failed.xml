@@ -6,7 +6,6 @@
       <class name="day9.Website">
         <methods>
           <include name="ajio"/>
-          <include name="flipkart"/>
         </methods>
       </class> <!-- day9.Website -->
     </classes>

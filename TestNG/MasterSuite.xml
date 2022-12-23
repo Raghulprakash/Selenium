@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Master">
+<suite-files>
+<suite-file path="C:\Users\raghu\git\Selenium\TestNG\NewFile.xml"></suite-file>
+<suite-file path="C:\Users\raghu\git\Selenium\TestNG\Grouping.xml"></suite-file>
+<suite-file path="C:\Users\raghu\git\Selenium\TestNG\Website.xml"></suite-file>
+<suite-file path="C:\Users\raghu\git\Selenium\TestNG\Amazon.xml"></suite-file>
+</suite-files>
+
+</suite>
