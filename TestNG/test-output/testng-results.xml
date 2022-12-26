@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-24T00:19:34 IST" name="Default suite" finished-at="2022-12-24T00:19:51 IST" duration-ms="16909">
+  <suite started-at="2022-12-26T22:03:59 IST" name="Default suite" finished-at="2022-12-26T22:04:07 IST" duration-ms="8276">
     <groups>
     </groups>
-    <test started-at="2022-12-24T00:19:34 IST" name="Default test" finished-at="2022-12-24T00:19:51 IST" duration-ms="16909">
-      <class name="day11.RadioButton">
-        <test-method signature="radiobutton()[pri:0, instance:day11.RadioButton@1bb266b3]" started-at="2022-12-24T00:19:34 IST" name="radiobutton" finished-at="2022-12-24T00:19:51 IST" duration-ms="16855" status="PASS">
+    <test started-at="2022-12-26T22:03:59 IST" name="Default test" finished-at="2022-12-26T22:04:07 IST" duration-ms="8276">
+      <class name="day12.Checkbox">
+        <test-method signature="checkbox()[pri:0, instance:day12.Checkbox@1bb266b3]" started-at="2022-12-26T22:03:59 IST" name="checkbox" finished-at="2022-12-26T22:04:07 IST" duration-ms="8235" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- radiobutton -->
-      </class> <!-- day11.RadioButton -->
+        </test-method> <!-- checkbox -->
+      </class> <!-- day12.Checkbox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="batchrun.Browser">
+      <class name="day13.HyperLink">
         <methods>
-          <include name="drop"/>
-          <include name="browser"/>
+          <include name="hyper"/>
         </methods>
-      </class> <!-- batchrun.Browser -->
+      </class> <!-- day13.HyperLink -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
