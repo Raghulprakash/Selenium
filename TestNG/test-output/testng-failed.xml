@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day13.HyperLink">
+      <class name="day14.Calander">
         <methods>
-          <include name="hyper"/>
+          <include name="dynamicgrid"/>
         </methods>
-      </class> <!-- day13.HyperLink -->
+      </class> <!-- day14.Calander -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
