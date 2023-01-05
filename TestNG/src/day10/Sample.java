@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class Sample {
 	public WebDriver driver;
-	@Parameters("Browser")
+	@Parameters("Browser") 
 	@BeforeTest	
 	
 	public void runtest1(String browser) 

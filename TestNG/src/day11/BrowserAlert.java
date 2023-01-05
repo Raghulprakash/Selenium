@@ -1,4 +1,4 @@
-package day11;
+ package day11;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -13,12 +13,12 @@ public class BrowserAlert
 	
 	@Test
 	public void alert()
-	{
+	{ 
 		System.setProperty("webdriver.chrome.driver", "F:\\selenium\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
-
 		driver.navigate().to("https://leafground.com/");
 		driver.manage().window().maximize();
+
 		
 		WebElement TaskManager = driver.findElement(By.id("menuform:j_idt39"));
 		TaskManager.click();
@@ -61,6 +61,7 @@ public class BrowserAlert
 		Modal_Dialog.click();
 		
 		driver.navigate().back();
+		driver.quit();
 	}
 	
 }

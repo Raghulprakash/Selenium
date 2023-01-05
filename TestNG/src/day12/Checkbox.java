@@ -63,7 +63,7 @@ public class Checkbox
 	}
 		
 	driver.navigate().back();
-	
+	driver.quit();
 	
 }
 	

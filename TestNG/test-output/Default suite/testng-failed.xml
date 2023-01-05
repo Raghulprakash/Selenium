@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day14.Calander">
+      <class name="day20.Datadrivencsv">
         <methods>
-          <include name="dynamicgrid"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- day14.Calander -->
+      </class> <!-- day20.Datadrivencsv -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

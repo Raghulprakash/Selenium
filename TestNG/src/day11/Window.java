@@ -54,6 +54,7 @@ public class Window {
 
 		driver.switchTo().window(Default_Window);
 		driver.navigate().back();
+		driver.quit();
 
 	}
 }

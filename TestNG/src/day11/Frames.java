@@ -28,7 +28,7 @@ public class Frames {
 		WebElement Inside_Frame = driver.findElement(By.id("Click"));
 		Inside_Frame.click();
 		String Frametext = Inside_Frame.getText();
-		System.out.println(Frametext);
+		System.out.println(Frametext); 
 
 		driver.switchTo().defaultContent();
 
@@ -50,6 +50,7 @@ public class Frames {
 		System.out.println(Frametext2);
 
 		driver.navigate().back();
+		driver.quit();
 
 	}
 

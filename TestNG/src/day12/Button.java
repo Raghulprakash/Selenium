@@ -51,6 +51,7 @@ public class Button
     
     List <WebElement> button = driver.findElements(By.xpath("//div[@class='card']//button[@type='button']"));
     System.out.println("number of buttons :"+button.size());
+    driver.quit();
     
 }
 }

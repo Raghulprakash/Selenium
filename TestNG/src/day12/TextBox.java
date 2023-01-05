@@ -79,5 +79,6 @@ public class TextBox {
 		Close.click();
 
 		driver.navigate().back();
+		driver.quit();
 	}
 }

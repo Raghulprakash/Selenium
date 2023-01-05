@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 
-public class BrowserSelection
+public class BrowserSelection 
 {
 	public WebDriver driver;
 	@Parameters("Browser")
@@ -28,6 +28,9 @@ public class BrowserSelection
 		}
 		
 	}
+	
+	
+	
 	@AfterTest
 	public void Exit() 
 	{

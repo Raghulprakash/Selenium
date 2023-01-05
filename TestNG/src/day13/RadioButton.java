@@ -52,6 +52,6 @@ public class RadioButton
 	System.out.println("edge is selected:"+status4);
 	
 	driver.navigate().back();
-	
+	driver.quit();
 }
 }

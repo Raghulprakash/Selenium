@@ -64,6 +64,6 @@ public class HyperLink
 	System.out.println("Number of Link in this layout:"+size1);
 	
 	driver.navigate().back();
-	
+	driver.quit();
 }
 }

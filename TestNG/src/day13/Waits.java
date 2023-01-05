@@ -64,7 +64,7 @@ public class Waits
 	String content4 = text4.getText();
 	System.out.println(content4);
 	
-	
+	driver.quit();
 	
 }
 }

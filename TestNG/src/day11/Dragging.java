@@ -41,6 +41,6 @@ public class Dragging
 		action.dragAndDropBy(Dragme1, x , y+200).perform();
 		
 		driver.navigate().back();
-		
+		driver.quit();
 	}	
 }

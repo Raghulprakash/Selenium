@@ -11,12 +11,11 @@ import org.testng.annotations.Test;
 public class Home {
 	WebDriver driver;
 
-	@Test
+	@Test 
 	public void home() {
-
-		System.setProperty("webdriver.chrome.driver", "F:\\selenium\\chromedriver_win32\\chromedriver.exe");
-		driver = new ChromeDriver();
-
+		
+		System.setProperty("webdriver.chrome.driver","F:\\selenium\\chromedriver_win32\\chromedriver.exe");
+	    driver= new ChromeDriver();
 		driver.navigate().to("https://leafground.com/");
 		driver.manage().window().maximize();
 		String Window = driver.getWindowHandle();
@@ -39,6 +38,8 @@ public class Home {
 		driver.switchTo().window(Window);
 		driver.navigate().back();
 		driver.navigate().back();
+		
+		driver.quit();
 
 	}
 
